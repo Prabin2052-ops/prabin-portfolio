@@ -1,0 +1,155 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prabin Paneru</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary-color: #1f2937;
+      --accent-color: #2563eb;
+      --bg-color: #f9fafb;
+      --text-color: #374151;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      border-bottom: 1px solid #e5e7eb;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: var(--text-color);
+    }
+    h2 {
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .contact a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero" id="about">
+    <h1>Prabin Paneru</h1>
+    <p>Process Engineer | Automation & Data Analytics</p>
+    <p>Mount Crawford, VA | <a href="mailto:prabin.paneru@walmart.com">prabin.paneru@walmart.com</a> | 412-209-5687</p>
+    <p><a href="https://www.linkedin.com/in/prabin-paneru-672b9b136" target="_blank">LinkedIn</a></p>
+    <p>My name is Prabin Paneru, originally from the small village of Pakhure in Nuwakot, Nepal. I currently serve as an Engineering Manager at Walmart, specializing in supply chain automation and operational improvements. In my free time, I enjoy outdoor adventures—hiking, biking, and camping—and I’m also an avid tennis player.</p>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Manager II, Process Engineer - Supply Chain</h3>
+    <p>Walmart Inc &middot; Sep 2023 - Present</p>
+    <ul>
+      <li>Designed and implemented automation systems for supply chain operations using Lean & Six Sigma.</li>
+      <li>Led cross-functional teams to develop scalable automated solutions and optimized process flows.</li>
+      <li>Utilized Python and Power BI to analyze data and present recommendations to senior leadership.</li>
+    </ul>
+    <h3>Industrial Engineering Intern</h3>
+    <p>Medtronic &middot; Jun 2022 - Aug 2022</p>
+    <ul>
+      <li>Developed automation solutions and optimized robotic manufacturing processes using AutoCAD.</li>
+      <li>Conducted FMEA to identify potential failures and implemented corrective actions.</li>
+    </ul>
+    <h3>Machine Learning Engineer</h3>
+    <p>McGill University &middot; Jan 2021 - Jul 2021</p>
+    <ul>
+      <li>Developed ML models to optimize manufacturing parameters, achieving 98.21% accuracy.</li>
+      <li>Analyzed data with Python to improve CAD and additive manufacturing processes.</li>
+    </ul>
+    <h3>Mechanical Engineer</h3>
+    <p>Carnegie Mellon University, School of Computer Science &mdash; Human-Computer Interaction Institute &middot; May 2019 - Jul 2020</p>
+    <ul>
+      <li><strong>Autonomous self-burying seed carriers for aerial seeding</strong> — Designed and prototyped biomimetic seed carriers. <a href="https://par.nsf.gov/servlets/purl/10432209" target="_blank">Research details</a></li>
+      <li><strong>Investigating Differential Error Types Between Human and Simulated Learners</strong> — Explored AI in educational technology. <a href="https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47" target="_blank">Conference chapter</a></li>
+    </ul>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <h3>Master of Science in Industrial and Systems Engineering</h3>
+    <p>Virginia Tech &middot; Aug 2021 - Jan 2023</p>
+    <h3>Bachelor of Mechanical Engineering (Robotics)</h3>
+    <p>Tribhuvan University &middot; Sep 2013 - Oct 2017</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Power BI, Tableau, AutoCAD, SolidWorks, ANSYS</li>
+      <li>Six Sigma, Lean, R, Python, SQL</li>
+      <li>Robotics, Unity, C++, MATLAB</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Automation Systems for Supply Chain Optimization at Walmart Distribution Center.</li>
+      <li>Robotic Manufacturing Process Optimization at Medtronic.</li>
+      <li>Machine Learning for Manufacturing Efficiency at McGill University.</li>
+      <li><strong>Autonomous self-burying seed carriers for aerial seeding</strong> — Prototype developed; see <a href="https://par.nsf.gov/servlets/purl/10432209" target="_blank">research details</a>.</li>
+      <li><strong>Investigating Differential Error Types Between Human and Simulated Learners</strong> — Analysis of AI-driven educational technology; see <a href="https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47" target="_blank">conference chapter</a>.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out via <a href="mailto:prabin.paneru@walmart.com">email</a> or connect on <a href="https://www.linkedin.com/in/prabin-paneru-672b9b136" target="_blank">LinkedIn</a>.</p>
+  </section>
+</body>
+</html>
